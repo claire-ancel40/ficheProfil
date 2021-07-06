@@ -1,0 +1,28 @@
+
+.slideRight9{
+    width: 76%;
+       
+}
+.legale{
+    background-color: whitesmoke !important;
+}
+ p{    
+    text-align: justify;
+    
+    color: #4033d6;
+}
+
+.format h3{
+    
+    color: whitesmoke;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px)
+{
+    .titreML{
+        color: whitesmoke;
+        text-align: center;
+    } 
+    
+}

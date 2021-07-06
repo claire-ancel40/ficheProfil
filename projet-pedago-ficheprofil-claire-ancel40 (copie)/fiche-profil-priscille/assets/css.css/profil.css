@@ -1,0 +1,119 @@
+/*partie droite page*/
+
+.slideRight2 {
+  width: 74%;
+  font-size: 24pt;
+  float: right;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+  right: 30px;
+  background-color: white;
+}
+
+.titre {
+  font-size: 40pt;
+  font-style: italic;
+  font-weight: 200;
+  color: white;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-left: 5%;
+  background: linear-gradient(to right, #4033d6, #000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-shadow: 4px 3px 0px #4033d6, 9px 8px 0px rgba(0, 0, 0, 0.15);
+}
+
+.presenter {
+  width: 100%;
+  margin-bottom: 183px;
+}
+
+.contenu {
+  width: 95%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 84px;
+}
+
+.presenter img {
+  width: 30%;
+  height: 33%;
+  padding: 3%;
+  margin-right: 3%;
+  margin-left: 110px;
+  margin-top: 10px;
+  box-shadow: 0px 0px 13px 6px rgba(39, 58, 165, 0.82);
+  -moz-box-shadow: 0px 0px 13px 6px rgba(39, 58, 165, 0.82);
+  -webkit-box-shadow: 0px 0px 13px 6px rgba(39, 58, 165, 0.82);
+}
+
+.presentation {
+  width: 100%;
+  font-style: normal;
+  text-align: justify;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 19pt;
+  text-align: justify;
+  margin-top: 0px;
+  color: #4033d6;
+}
+
+@media screen and (max-width: 1024px){
+  .slideRight2 {
+    width: 100% ;
+    font-size: 24pt;
+    margin-left: 10px;
+    margin-top: 50px;
+    
+  }
+  .titre {
+    font-size: 35pt;
+    font-weight: 200;
+    margin-left: 0.4%;
+  }
+  .presenter img {
+    width: 40%;
+    margin-left: 50px;
+  }
+  .presentation{
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+  
+} 
+
+@media screen and (max-width: 700px){
+  .slideRight2 {
+    width: 100% ;
+    font-size: 24pt;
+    margin-left: 10px;
+    margin-top: 50px;
+    
+  }
+  .titre {
+    font-size: 35pt;
+    font-weight: 200;
+    margin-left: 0.4%;
+    margin-bottom: 10px;
+    line-height: 120%;
+  }
+  .contenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .presenter {
+    width: 100%;
+    margin-bottom: 83px;
+  }
+  .presenter img {
+    margin-left: 50px;
+  }
+ 
+} 
+
