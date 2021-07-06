@@ -1,4 +1,4 @@
-<?php include "./config/config.php"?>
+<?php include "/projet-pedago-ficheprofil-claire-ancel40 (copie)/fiche-profil-priscille/config/config.php"?>
 <!DOCTYPE html>
 <html lang="fr">
 
